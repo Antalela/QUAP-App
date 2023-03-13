@@ -1,0 +1,111 @@
+
+.Container{
+    background-color: rgba(185, 184, 184, 0.5);
+    display: flex;
+    align-items: center;
+    height: 100px;     
+    min-width: 100%;
+    position: sticky; 
+    top: 0;
+    
+   
+}
+
+.Left{
+    display: flex;
+    flex: 1;
+    height: 90%;
+    align-items: center;
+}
+    .Logo{
+        object-fit:contain;
+        margin-left: 10%;
+        cursor: pointer;
+    }      
+
+.Middle{
+    display: flex;
+    flex: 1;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+    .SearchBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 0.5px solid lightgray;
+        border-radius: 20px;
+        width: 70%;
+        height: 30%;
+        padding: 1%;
+    }
+    
+
+    .Search-Bar-Input{   
+            border: none;
+            outline: none;
+            margin-left: 2%;
+            width: 85%;
+            background: none;
+            font-size: 90%;
+    }
+    .Search-Icon{
+            cursor: pointer;
+            color:  grey;
+            font-size: 100%;
+            
+            padding: 2%;
+    }
+    
+
+.Right{
+    display: flex;
+    flex: 1;
+    height: 90%;
+    align-items: center;
+    justify-content: right;
+    margin-right: 5%; 
+}
+
+    .ContactUs-Button{
+        border: 0.5px solid lightgrey;
+        color: black;
+        border-radius: 10px;
+        height: 40%;
+        width: 25%;
+        margin: 0% 5%;
+        font-size: 80%;
+        font-weight: 600;
+        background-color:  rgb(255, 0, 0 , 0);
+        cursor: pointer;
+    }
+        .ContactUs-Button:hover{
+            border: none;
+            background-color: rgb(64, 159, 64);
+            color: white;
+            transition:all 0.5s ease;
+        }
+    .Account-Icon{
+        color: grey;
+        margin: 0% 5%;
+        font-size: 180%;
+        cursor: pointer;
+    }
+
+.Languages{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+    .Language-Icon{
+        font-size: 100%;
+    }
+    .Select{
+        border-radius: 5px;
+        background: none;
+        margin: 0px 5px;
+        cursor: pointer;
+    }
+        .Options{
+        }
