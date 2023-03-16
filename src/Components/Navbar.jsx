@@ -17,8 +17,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='Right'>
-                    <button className='ContactUs-Button'>Contact Us</button>
+                    
                     <IoPersonSharp className='Account-Icon'/>
+                    <button className='ContactUs-Button'>Contact Us</button>
                     <div className='Languages'>
                       <TbLanguage className='Language-Icon'/>
                       <select className='Select'>

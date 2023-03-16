@@ -1,12 +1,12 @@
-
 .Container{
-    background-color: rgba(185, 184, 184, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     align-items: center;
     height: 100px;     
-    min-width: 100%;
+    width: 100%;
     position: sticky; 
     top: 0;
+
     
    
 }
@@ -49,10 +49,15 @@
             width: 85%;
             background: none;
             font-size: 90%;
+            
     }
+    .Search-Bar-Input::placeholder{
+        color: black;
+    }
+
     .Search-Icon{
             cursor: pointer;
-            color:  grey;
+            color:  black;
             font-size: 100%;
             
             padding: 2%;
@@ -65,7 +70,7 @@
     height: 90%;
     align-items: center;
     justify-content: right;
-    margin-right: 5%; 
+    margin-right: 1%; 
 }
 
     .ContactUs-Button{
@@ -74,10 +79,10 @@
         border-radius: 10px;
         height: 40%;
         width: 25%;
-        margin: 0% 5%;
+        margin: 0% 1%;
         font-size: 80%;
         font-weight: 600;
-        background-color:  rgb(255, 0, 0 , 0);
+        background-color: #f2f2f2;
         cursor: pointer;
     }
         .ContactUs-Button:hover{
@@ -88,7 +93,7 @@
         }
     .Account-Icon{
         color: grey;
-        margin: 0% 5%;
+        margin: 0% 3%;
         font-size: 180%;
         cursor: pointer;
     }
@@ -96,16 +101,19 @@
 .Languages{
     display: flex;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 3%;
 }
     .Language-Icon{
-        font-size: 100%;
+        font-size: 90%;
     }
     .Select{
+        
         border-radius: 5px;
         background: none;
         margin: 0px 5px;
         cursor: pointer;
+        
     }
         .Options{
+            
         }
