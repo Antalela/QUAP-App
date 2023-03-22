@@ -1,0 +1,43 @@
+.Slider_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;   
+    
+    border: 1.5px solid red;
+}
+
+.NooteBook_Img{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.Slider_Img_Slider{
+    height: 100%;
+    display: flex;
+    transition: all 0.5 ease;
+}
+
+
+.NooteBook_Screen{
+    position: absolute;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;   
+}
+
+.Slider_Arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;    
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    cursor: pointer;
+    background-color: rgb(238, 229, 229,0.5);
+ 
+
+}

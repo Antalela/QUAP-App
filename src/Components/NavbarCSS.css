@@ -1,14 +1,11 @@
-.Container{
-    background-color: rgba(255, 255, 255, 0.9);
+.Navbar_Container{
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     align-items: center;
-    height: 100px;     
+    height: 80px;     
     width: 100%;
     position: sticky; 
     top: 0;
-
-    
-   
 }
 
 .Left{
@@ -18,6 +15,8 @@
     align-items: center;
 }
     .Logo{
+        height: 80px;
+        width: 100px;
         object-fit:contain;
         margin-left: 10%;
         cursor: pointer;
@@ -77,16 +76,16 @@
         border: 0.5px solid lightgrey;
         color: black;
         border-radius: 10px;
-        height: 40%;
-        width: 25%;
+        padding: 5px 5px;
+        height: fit-content;
+        width: fit-content;
         margin: 0% 1%;
-        font-size: 80%;
-        font-weight: 600;
+        font-size: 70%;
+        font-weight: 550;
         background-color: #f2f2f2;
         cursor: pointer;
     }
         .ContactUs-Button:hover{
-            border: none;
             background-color: rgb(64, 159, 64);
             color: white;
             transition:all 0.5s ease;
@@ -102,18 +101,21 @@
     display: flex;
     align-items: center;
     margin-left: 3%;
+    
 }
     .Language-Icon{
         font-size: 90%;
+       
     }
     .Select{
         
         border-radius: 5px;
         background: none;
-        margin: 0px 5px;
+        margin-left: 5px;
         cursor: pointer;
+       
         
     }
         .Options{
-            
+           
         }
