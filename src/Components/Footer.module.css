@@ -1,0 +1,37 @@
+.Container{
+    height: 250px;
+    width: 100%;
+}
+.Wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.Description{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+    .Logo{
+        height: 130px;
+        width: 150px;
+        object-fit:contain;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .Description_Text{
+        background-color: wheat;
+        margin: 0% 5%;
+    } 
+.Useful_Links{
+    flex: 1;
+
+
+    background-color: yellow;
+}
+.Contacts{
+    flex: 1;
+
+    background-color: tomato;
+}
