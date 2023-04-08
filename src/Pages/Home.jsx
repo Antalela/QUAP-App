@@ -44,8 +44,8 @@ const Home = () => {
                     <img className={css.Slider_Img} src={img.id} />
                 </div>
                 <div className={css.Info_Container}>
-                  <h1>{t(`slider.${img.index}.infoHeader`)}</h1>
-                  <h2>{t(`slider.${img.index}.infoText`)}</h2>
+                  <h1>{t(`Slider.${img.index}.infoHeader`)}</h1>
+                  <h2>{t(`Slider.${img.index}.infoText`)}</h2>
                 </div>
               </div>
               ))

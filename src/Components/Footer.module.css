@@ -1,5 +1,5 @@
 .Container{
-    height: 250px;
+    height: 180px;
     width: 100%;
 }
 .Wrapper{
@@ -11,27 +11,63 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: blue;
+  
 }
     .Logo{
-        height: 130px;
-        width: 150px;
+        height: 60px;
+        width: 80px;
+        margin-top: 2%;    
         object-fit:contain;
-        margin-left: 10%;
         cursor: pointer;
     }
     .Description_Text{
-        background-color: wheat;
-        margin: 0% 5%;
+        width: 50%;
+        margin-left:  5%;
+        font-size: small;
     } 
 .Useful_Links{
     flex: 1;
-
-
-    background-color: yellow;
+    text-align: center;
 }
+    .Links{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+    }
+    .Links_Items{
+        padding: 1%;
+        margin: 4%;
+        cursor: pointer;
+    }
 .Contacts{
     flex: 1;
-
-    background-color: tomato;
+    
+    text-align: center;
 }
+    .Contacts_List{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        margin-right: 3%;
+    }
+    .Contacts_Items{   
+    }
+    .Twitter_Icon{
+        font-size: 30px;
+        padding: 2px;
+        color: #55ACEE;
+        cursor: pointer;  
+    }
+    .Email_Icon{
+        font-size: 30px;
+        padding: 2px;
+        color: #E60023;
+        cursor: pointer;
+    }
+    .Phone_Icon{
+        font-size: 30px;
+        padding: 2px;
+        color: rgb(95, 95, 95);
+        cursor: pointer;
+    }

@@ -17,16 +17,20 @@ const Navbar = () => {
                 <div className={css.Left}>
                     <img className={css.Logo} src={require('./Logo.png')} alt='Qapp'></img>
                 </div>
+
                 <div className={css.Middle}>
                     <div className={css.SearchBar}>
-                        <input className={css.Search_Bar_Input} placeholder={t('navbar.Search')}></input>
+                        <input className={css.Search_Bar_Input} placeholder={t('Navbar.Search')}></input>
                         <TbSearch className={css.Search_Icon}></TbSearch>
                     </div>
                 </div>
+
                 <div className={css.Right}>
-                    
+
                     <IoPersonSharp className={css.Account_Icon}/>
-                    <button className={css.ContactUs_Button}>{t('navbar.ContactUs')}</button>
+
+                    <button className={css.ContactUs_Button}>{t('Navbar.ContactUs')}</button>
+
                     <div className={css.Languages}>
                       <TbLanguage className={css.Language_Icon}/>
                       <select className={css.Select} 
@@ -38,6 +42,7 @@ const Navbar = () => {
                       </select>
                     </div>
                 </div>
+                
            </div>
     );
 }
