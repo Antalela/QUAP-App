@@ -7,6 +7,7 @@ import css from'./Navbar.module.css'
 
 import { useTranslation} from 'react-i18next';
 import i18n from '../i18next/i18n';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -27,7 +28,9 @@ const Navbar = () => {
 
                 <div className={css.Right}>
 
-                    <IoPersonSharp className={css.Account_Icon}/>
+                    <Link to={'/login'}>
+                        <IoPersonSharp className={css.Account_Icon}/>
+                    </Link>
 
                     <button className={css.ContactUs_Button}>{t('Navbar.ContactUs')}</button>
 

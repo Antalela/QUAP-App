@@ -96,7 +96,7 @@
         }
     .Account_Icon{
         color: grey;
-        margin: 0% 3%;
+        margin: 0px -50%;
         font-size: 180%;
         cursor: pointer;
     }
@@ -105,20 +105,16 @@
     display: flex;
     align-items: center;
     margin-left: 3%;
-    
 }
     .Language_Icon{
         font-size: 90%;
-       
+        
     }
     .Select{
-        
         border-radius: 5px;
         background: none;
         margin-left: 5px;
         cursor: pointer;
-       
-        
     }
         .Options{
            
