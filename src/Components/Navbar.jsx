@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import {TbSearch , TbLanguage } from 'react-icons/tb';
 import {IoPersonSharp} from "react-icons/io5"
@@ -7,7 +8,6 @@ import css from'./Navbar.module.css'
 
 import { useTranslation} from 'react-i18next';
 import i18n from '../i18next/i18n';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -16,12 +16,14 @@ const Navbar = () => {
     return(
            <div className={css.Navbar_Container}>
                 <div className={css.Left}>
-                    <img className={css.Logo} src={require('./Logo.png')} alt='Qapp'></img>
+                    <Link to={'/'}>
+                        <img className={css.Logo} src={require('./Logo.png')} alt='Qapp'></img>
+                    </Link>
                 </div>
 
                 <div className={css.Middle}>
                     <div className={css.SearchBar}>
-                        <input className={css.Search_Bar_Input} placeholder={t('Navbar.Search')}></input>
+                        <input className={css.Search_Bar_Input} placeholder={t('Navbar.Search')} type='search'></input>
                         <TbSearch className={css.Search_Icon}></TbSearch>
                     </div>
                 </div>

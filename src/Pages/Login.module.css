@@ -8,11 +8,11 @@
 }
 .Input_Box{
     height: 5%;
-    width: 50%;
+    width: fit-content;
     border-radius: 20px;
     font-size: 90%;
     padding: 5px;
-    margin: 5%;
+    margin:2%;
     border: 0.5px solid #CDCDCD;
     background-color: #E9E9E9;
     cursor: text;
@@ -45,8 +45,9 @@
     position: relative;
     display: flex;
     height: 60%;
-    width: 70%;
+    width: 80%;
     border-radius: 20px;
+    box-shadow: #22222279 0px 5px 15px 0px;
     border: 2px solid #88BBD6;
 }
 ::placeholder{  }
@@ -56,6 +57,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+        
     }
         .Forget_Password{
             font-size: 70%;
@@ -73,27 +75,28 @@
     .Front_Platform{
         position: absolute;
         z-index: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         height: 100%;
         width: 50%;
         border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         background-color: #88BBD6;
         border: 0.5px solid #88BBD6;
         transition: 0.5s all  ease;   
     }
         .Tittle{
-            
-            margin: 10% 0%;
+            margin-top: 10%;
             font-size: 160%;
-        }
-        .Info_Text{
-            
-            font-size: 150%; 
             width: fit-content;
             height: fit-content;
-            margin: 5%;
+        }
+        .Info_Text{
+            font-size: 150%; 
+            margin: 0% 2%;
+            width: fit-content;
+            height: fit-content;
             text-align: center;           
         }
         .Change_Platform_Button{
@@ -101,7 +104,7 @@
             height: fit-content;
             width: fit-content;
             padding: 2% 5%;
-            margin: 10%;
+            margin-top: 10%;
             font-size:  100%;
             font-weight: 550;  
             border-radius: 20px;

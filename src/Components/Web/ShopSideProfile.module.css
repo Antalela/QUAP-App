@@ -1,0 +1,81 @@
+:root{
+
+}
+.Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Profile_Img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0.5px solid grey;
+   
+    object-fit: contain;
+    margin: 5% auto;
+}
+.Profile_Name{
+    font-size: 150%;
+}
+.Contacts{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 150px;
+    align-items: center;    
+}
+    .Contacts_Button{
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        min-width: 100px;
+        min-height: 25px;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background-color: #333e40;
+    }.Contacts_Button:hover{
+        background-color: #505d60;
+        transition:all 0.5s ease;
+    }
+    .Contacts_Icon{
+            
+        color: white;
+        padding: 2px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-right: 15%;
+        
+    }
+.Work_Plan{
+        width: 90%;
+        margin-top: 10%;
+    }
+        .Work_Plan_Title{
+            margin: 0;
+            font-size: 100%;            
+            border-bottom: 1px solid black;
+        }
+        .Week_Table{
+            display: flex;
+            margin: 5% 0;
+            border-bottom: 1px solid black;
+        }
+            .Days{
+                flex: 2.5;
+                font-size: 100%;
+            }
+            .Hours{
+                flex: 1.5;
+                font-size: 100%;
+            }
+        
+                
+        

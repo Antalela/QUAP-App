@@ -1,0 +1,90 @@
+:root{
+
+    --height-Top: 200px ;
+    --scale-Index: -1;
+}
+
+.Container{
+    width: 100%;  
+    height: 100%;
+}
+.Top{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.5s all ease; 
+    height: var(--height-Top);
+   
+
+    background-color: grey;
+}
+    .Announcements{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }.Arrow_Button{
+        position: absolute;
+        bottom: 0;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        border: 1px solid rgba(199, 192, 192, 0.6);
+        background-color: rgb(238, 229, 229,0.6) ;
+        rotate: 90deg;
+        cursor: pointer;
+        transform: scaleX(var(--scale-Index));
+    }.Arrow_Button:hover{
+        border: none;
+        background-color: rgb(238, 229, 229,0.9) ;
+    }
+.Bottom{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 10px;
+}
+    .Profile_SideBar{    
+        width: 30%;
+        height: 100%;
+    }
+    .Wrapper{
+        border:1spx solid blueviolet;
+        
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+        .Nav_Menu{
+            display: flex;
+            width: 100%;
+            height: 10%;
+            justify-content: center;
+            align-items: center;
+        }  
+            .Nav_Menu_B{
+                width: fit-content;
+                height: fit-content;
+                font-size: 90%;
+                margin: 1%;
+                padding: 1% 2%;
+                border-radius: 20px;
+                border: 1px solid rgba(199, 192, 192, 0.6);
+                background-color: rgb(238, 229, 229,0.6) ;
+                cursor: pointer;
+            }.Nav_Menu_B:hover{
+                border: none;
+                background-color: rgb(238, 229, 229,0.9) ;
+            }
+        .Menu_Content{
+            background-color: darkkhaki;
+
+            width: 100%;
+            height: 90%;
+        }

@@ -3,6 +3,17 @@ export const Eng = {
         Search: 'Search...',
         ContactUs: 'Contact Us' //BUNU İŞLETMELERE DOĞRULTULU BIR SEYE CEVIR
     },
+    ShopSideProfile : {
+        Work_Days : {
+            1 : 'Monday :',
+            2 : 'Tuesday :',
+            3 : 'Wednesday :',
+            4 : 'Thursday :',
+            5 : 'Friday :',
+            6 : 'Saturday :',
+            7 : 'Sunday :',
+        },
+    },
     Slider : {
         0 : {
             infoHeader : 'This one is first header',
@@ -30,7 +41,6 @@ export const Eng = {
         Confirm_Password: 'Confirm Password',
         Name: 'Name',
         Surname: 'Surname',
-        L_button: 'Login',
         Login:{
             Attention_Message: "Pleas enter your email and password to login in your account",
             Forget_Password: 'Forget Password ?',
@@ -54,5 +64,16 @@ export const Eng = {
                 Button: 'SIGNIN'
             }
         }
-    }
+    },
+    Pages : {
+        ShopProfile : {
+            NavMenu_Buttons : {
+                Services : 'Services',
+                Appointment : 'Appointment',
+                Staff : 'Staff',
+                Announcement : 'Announcement',
+                Contacts : 'Contacts',
+            }
+        }
+    } 
 }

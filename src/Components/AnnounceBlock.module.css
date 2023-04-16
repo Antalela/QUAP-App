@@ -1,0 +1,61 @@
+.Container{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(255, 255, 255,0.6); 
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    margin: 1% 5%;
+    margin-top: 10px;
+    position: relative;
+    
+}
+.Top{
+    height: 25%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+}
+    .Title{
+        flex: 1.75;
+        font-size: 100%;
+        cursor: pointer;
+    }
+    .Date{
+        flex: 0.25;
+        margin: 5%;
+        font-size: 70%;
+        
+    }
+.Center{
+    width: 375px;
+    height: 70%;  
+    margin-left: 5%;
+    
+}
+    .Announce{
+        font-size: 85%;
+        font-weight: 500;
+        font-family: Times;
+    }
+.Bottom{
+    min-height: 40px;
+    width: 100%;
+}
+    .Detail_Button{
+        position: absolute;
+        right: 10%;
+        bottom: 5.5%;
+        width: fit-content;
+        height: fit-content;
+        padding: 1.5% 2.5%;
+        border-radius: 10px;
+        border: 1px solid rgba(199, 192, 192, 0.6);
+        background-color: rgb(238, 229, 229,0.6) ;
+        font-size: 70%;
+        font-family: Georgia;
+        cursor: pointer;
+    }.Detail_Button:hover{
+        border: none;
+        background-color: rgb(238, 229, 229,0.9) ;
+    }

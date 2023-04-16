@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-import Navbar from '../Components/Navbar'
+import Navbar from '../Components/Navbar';
+import {Footer} from '../Components/Footer';
 import css from './Login.module.css';
 import { useTranslation } from 'react-i18next';
 
@@ -10,12 +11,7 @@ import { useTranslation } from 'react-i18next';
 export const Login = () => {
   
   const { t } = useTranslation();
-  const [platform_Index , set_Platform_Index] = useState(0);
-
-  const custom_Style = {
-    margin:'2%',
-    width:'fit-content'
-  }
+  const [platform_Index , set_Platform_Index] = useState(1);
     
   return (
     <>
@@ -24,19 +20,19 @@ export const Login = () => {
       <div className={css.Back_Platform}>
         <div className={css.Login}>
                 <span className={css.Attention_Message} > {t('Login.Login.Attention_Message')} </span>
-                <input className={css.Input_Box} placeholder={t('Login.Email')}/>
-                <input className={css.Input_Box} placeholder={t('Login.Password')} />
+                <input className={css.Input_Box} type='email'  placeholder={t('Login.Email')}/>
+                <input className={css.Input_Box} type='password' placeholder={t('Login.Password')} />
                 <button className={css.Button}> {t('Login.Login.Button')} </button>
                 <span className={css.Forget_Password}> {t('Login.Login.Forget_Password')} </span>
                 <span className={css.Attention_Message} style={{visibility:'' , color:'#bf0909d5'}} > {t('Login.Login.Wrong_Input')} </span> 
         </div>    
         <div className={css.Signin}>
               <span className={css.Attention_Message}> {t('Login.Signin.Attention_Message')} </span>
-              <input class={css.Input_Box} style={custom_Style} placeholder={t('Login.Name')} />
-              <input className={css.Input_Box} style={custom_Style}  placeholder={t('Login.Surname')} />
-              <input className={css.Input_Box} style={custom_Style} placeholder={t('Login.Email')}/>
-              <input className={css.Input_Box} style={custom_Style} placeholder={t('Login.Password')}/>
-              <input className={css.Input_Box} style={custom_Style} placeholder={t('Login.Confirm_Password')}/>
+              <input class={css.Input_Box} type='text' placeholder={t('Login.Name')} />
+              <input className={css.Input_Box} type='text'  placeholder={t('Login.Surname')} />
+              <input className={css.Input_Box} type='email'  placeholder={t('Login.Email')}/>
+              <input className={css.Input_Box} type='password'  placeholder={t('Login.Password')}/>
+              <input className={css.Input_Box} type='password'  placeholder={t('Login.Confirm_Password')}/>
               <button className={css.Button} style={{margin:'5% 50%'}}> {t('Login.Signin.Button')} </button> 
         </div>  
         <div className={css.Front_Platform} style={{transform: `translateX(${platform_Index*100}%)`}}>
@@ -46,6 +42,7 @@ export const Login = () => {
         </div>
       </div>
     </div>
+    <Footer/>
     </>
   )
 }

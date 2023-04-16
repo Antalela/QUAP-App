@@ -1,7 +1,12 @@
+.Dont-Forget{
+    box-shadow: 0px -4px 6px 4px #222;
+}
+
 .Container{
     height: 180px;
-    width: 100%;
+    width: 100%; 
 }
+
 .Wrapper{
     height: 100%;
     width: 100%;
